@@ -5,9 +5,13 @@ lua54 'yes'
 
 author 'Munafio'
 description 'RedM script for enabling map discoveries!'
-version '1.0.0'
+version '1.0.1'
 
 client_scripts {
     'c/data.lua',
     'c/main.c.lua',
+}
+
+server_scripts {
+    'vcheck.lua',
 }
